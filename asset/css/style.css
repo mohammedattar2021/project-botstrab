@@ -1,0 +1,299 @@
+:root{
+    --bg-primary:#C89B2C;
+    --bg-secondary:#4A1714;
+     --text-light:var(--white);
+}
+body{
+    font-family: URW DIN Arabic;
+}
+.text-light{
+    color: var(--text-light);
+}
+.bg-primary ,.btn-primary{
+    background-color: var(--bg-primary) !important;
+}
+.btn-outline-primary,.border-primary{
+    border-color: var(--bg-primary)  !important; 
+}
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
+
+}
+.btn-outline-secondary{
+    border-color: var(--bg-secondary)  !important;
+}
+.text-secondary{
+    color: var(--bg-secondary) !important;
+}
+.text-primary{
+    color: var(--bg-primary) !important;
+}
+.index{
+    z-index: 5555;
+}
+.logobackleft{
+    background-image: url(../../img/Group\ 11426.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 2rem;
+    z-index: -55;
+}
+
+.logobackright{
+    background-image: url(../../img/Group\ 11426.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 2rem;
+    z-index: -55;
+}
+
+/* nav start */
+#nav{
+    background-image: linear-gradient(to right,#c89c2c, #3b100d);
+    opacity: 0.7;
+}
+
+#nav nav .container .text-center p{
+    font-size: .5rem;
+    text-transform: capitalize;
+    font-family: serif;
+}
+#nav nav .container #navbarSupportedContent ul li a {
+    color: white;
+}
+#nav nav .container .navbar-toggler:focus{
+    box-shadow: none;
+}
+#nav .landing{
+    min-height: calc(100vh - 180px);
+}
+#nav .rounded-pill{
+    width: 1rem;
+    height: 3.5rem;
+    border: 1px solid white;
+}
+#nav .rounded-circle{
+    width: .8rem;
+    height: .8rem;
+    background-color: white;
+}
+#main-section{
+    background-image: url(../../img/NoPath\ -\ Copy\ \(3\).png);
+    background-repeat: no-repeat;
+
+}
+
+/* End nav*/
+
+/* Start busines*/
+.spac{
+width: 45%;
+height: .3rem;
+position: relative;
+right: 2.2rem;
+border-radius: 10rem;
+background-color: var(--bg-primary);
+}
+.spacfooter{
+width: 45%;
+height: .3rem;
+position: relative;
+border-radius: 10rem;
+background-color: var(--bg-primary);
+}
+.part1:hover{
+    background-color: var(--bg-secondary);
+    color: white !important;
+}
+.part1:hover .part2{
+    background-color:white !important;
+    color: var(--bg-secondary) !important;
+}
+
+#Business hr ,#client hr ,#new hr {
+    width:40%; 
+}
+
+ .box{
+    border-radius: 18px; /* al box*/
+}
+
+.border-muted{
+    border-color: rgba(0, 0, 0, 0.182);
+}
+/* Start busines*/
+
+
+/* Strat information*/
+
+#information .backimge {
+    background-image: url(../../img/NoPath.png);
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+#information .backimge{
+   height: 100%;
+   width: 100%;
+
+}
+#information .line1{
+    padding: .5rem;
+    border-bottom: .7rem solid var(--bg-primary);
+}
+
+#information .backimge .line2{
+    width: 15%;
+    padding: .5rem;
+    border-bottom: .7rem solid var(--bg-primary);
+}
+#information .box2{
+    width: 600px;
+    height: 200px;
+    background-color: #4A1714;
+    position: absolute;
+    display: inline-block;
+   left: 10%;
+}
+#information .box3{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 26%;
+    transform: translate(-50%,0px);
+    border-radius: 18px;
+}
+#information .box3 .box4{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    border-radius: 17px;
+}
+#information .backdark{
+    width: 56.5%;
+    height: 22rem;
+    background-image: linear-gradient(to right, #c89c2c90 , #4a1714b8);
+    border-radius: 17px 0px 0px 17px;
+}
+
+/* End information*/
+
+
+/* Strat client*/
+
+#client .box{
+    height: 20rem;
+}
+#client .box p{
+    font-size: 14px;
+}
+#client .qouts{
+    position: absolute;
+    top: 10%;
+    left: 1.5%;
+}
+/* End client*/
+
+
+#new .card{
+    border-radius: 18px;
+}
+#statistics{
+    height: 45rem;
+}
+#statistics .backimge{
+    background-image: url(../../img/Screenshot\ 2022-05-14\ 184834.jpg);
+    background-size: cover;
+    height: 40rem;
+}
+#statistics .backimge2 {
+    background-image: url(../../img/Group\ 11426.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    z-index: -5555;
+}
+
+
+.backcoloropcetiy{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#c89c2c, #3b100d);
+    opacity: 0.8;
+    z-index: -55555;
+
+}
+#statistics .backcoloropcetiy h1{
+    width: 6rem;
+    border-bottom: .8rem solid var(--bg-primary);
+}
+#statistics .logobackright{
+    background-image: url(../../img/Group\ 11426.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 6rem;
+    z-index: -55;
+}
+#statistics .boxcontainer{
+    position: relative;
+    top: -13rem;
+}
+#statistics .box6{
+    width: 100%;
+    border: 5px solid rgb(226, 226, 226);
+    border-radius: 18px;
+    
+
+}
+#statistics .box7{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    height: 13rem;
+} 
+
+
+#question .containerbox8{
+    border: 1px solid rgba(59, 59, 59, 0.296);
+    border-radius: 18px;
+}
+#question .containerbox8 .box8{
+    border-radius: 10px;
+}
+ 
+
+#contact input{
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+}
+#contact input .sub{
+    width: 10%;
+  }
+
+
+#footer{
+      background-color: #131D24;
+  }
+
+
+
+  .backbutton{
+      background-image: url(../../img/Group\ 11426.png);
+  }
+  .im{
+      display: inline;
+      position: relative;
+      top: 20px;
+  }
